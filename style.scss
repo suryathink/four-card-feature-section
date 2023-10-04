@@ -13,12 +13,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  // margin: auto;
 }
 
 .main {
-  border: 2px solid red;
-  // margin: 50px;
   height: 1250px;
   width: 375px;
   background: #fafafa;
@@ -72,7 +69,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid black;
+  // border: 2px solid black;
 }
 
 .first-card {
@@ -146,15 +143,14 @@ body {
 
 @media only screen and (min-width: 768px) {
   .main {
-    border: 2px solid blue;
     width: 100%;
   }
 
   .all-cards {
     position: relative;
-    border: 2px solid red !important;
-    max-width: 60%;
-    width: 60%;
+    // border: 2px solid red !important;
+    width: 1100px;
+    min-width: 1100px;
     margin: auto;
   }
 
@@ -169,4 +165,6 @@ body {
     right: 5%;
     top:20%;
   }
+  
 }
+
